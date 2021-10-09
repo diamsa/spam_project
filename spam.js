@@ -11,6 +11,16 @@ fs.readFile("./myOwnData.csv", (err, data) => {
         return row.split(",");
       });
 
-    console.log(dataInArray);
+    const fourRow = [];
+    for (let i = 0; i < dataInArray.length; i++) {
+      fourRow.push([
+        dataInArray[i][0],
+        dataInArray[i][1],
+        dataInArray[i][2],
+        dataInArray[i][3],
+      ]);
+    }
+
+    console.log(fourRow);
   }
 });

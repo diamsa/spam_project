@@ -1,4 +1,4 @@
-"name","age","location","interests"
-"diego",18,"Somewhere in the world","soccer and gaming"
-"maria",18,"Argentina","cooking"
-"shaw",18,"Rusia","playing guitar"
+"name","age","location","interests","family","dog name"
+"diego",18,"Somewhere in the world","soccer and gaming","yes","puchurrili"
+"maria",18,"Argentina","cooking","no","puppy"
+"shaw",18,"Rusia","playing guitar","yes","julien"
